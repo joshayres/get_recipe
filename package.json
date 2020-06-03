@@ -17,6 +17,6 @@
     "got": "^11.1.4",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",
-    "recipe-scraper": "^1.17.0"
+    "recipe-scraper": "^1.18.0"
   }
 }
