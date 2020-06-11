@@ -68,8 +68,7 @@ app.get("/:food/:num", (req, res) => {
     for (var i = 0; i < urlsStrings.length; i++) {
       if (getRecipeFromUrl(urlsStrings[i])) {
         ur = getRecipeFromUrl(urlsStrings[i]);
-        // 18 is how many google urls there are
-        num = i - 12;
+        num = i;
         break;
       }
     }
