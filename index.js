@@ -55,7 +55,7 @@ function getRecipeFromUrl(url) {
   return recUrl;
 }
 
-app.get("/:food/:num", (req, res) => {
+app.get("/api/:food/:num", (req, res) => {
   var searchurl = url + req.params.food + " recipe" + "&start=" + req.params.num;
   (async () => {
     const response = await fetch(searchurl);
